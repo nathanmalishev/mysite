@@ -1,6 +1,8 @@
 import React from 'react'
 import LinkedIn from 'react-icons/lib/ti/social-linkedin'
 import FaGithub from 'react-icons/lib/fa/github'
+import MdEmail from 'react-icons/lib/md/email'
+import Twitter from 'react-icons/lib/ti/social-twitter'
 import ReactFitText from 'react-fittext'
 
 export default () => (
@@ -14,6 +16,12 @@ export default () => (
       </SocialMedia>
       <SocialMedia href="https://github.com/nathanmalishev" >
         <FaGithub style={styles.icon} />
+      </SocialMedia>
+      <SocialMedia href="mailto:nathan.malishev@gmail.com" >
+        <MdEmail style={styles.icon} />
+      </SocialMedia>
+      <SocialMedia href="https://twitter.com/NathanMalishev" >
+        <Twitter style={styles.icon} />
       </SocialMedia>
     </ul>
   </div>
@@ -44,7 +52,8 @@ const styles = {
   },
   ul: {
     margin:0,
-    padding:0
+    padding:0,
+    paddingBottom:'50px'
   },
   heading: {
     paddingTop: '40px',
