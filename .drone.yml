@@ -1,6 +1,19 @@
+workspace:
+  base: /site
+
 pipeline:
   frontend:
     image: node:6
     commands:
       - npm install
       - npm build 
+  s3:
+    image: plugins/s3
+    bucket: nathanmalishev.com
+    region: ap-southeast-2
+    acl: public-read
+    access_key: ${AWS_ACCESS_KEY}
+    secret_key: ${AWS_SECRET_KEY}
+    source: build/**/*
+    target: /
+    strip_prefix: build/
