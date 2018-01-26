@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "preact": "^8.1.0",
-    "preact-compat": "^3.15.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-fittext": "https://github.com/gianu/react-fittext",
-    "react-icons": "^2.2.3"
+    "preact": "^8.2.7",
+    "preact-compat": "^3.18.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-fittext": "^1.0.0",
+    "react-icons": "^2.2.7"
   },
   "devDependencies": {
     "autoprefixer": "6.7.2",
