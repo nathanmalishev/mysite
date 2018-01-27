@@ -69,7 +69,7 @@ export default () => (
 )
 
 const SocialMedia = ({href, children}) => (
-   li style={styles.li}>
+  <li style={styles.li}>
     <a href={href} style={styles.a}>
       {children}
     </a>
