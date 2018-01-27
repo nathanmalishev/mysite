@@ -4,6 +4,7 @@ import FaGithub from 'react-icons/lib/fa/github'
 import MdEmail from 'react-icons/lib/md/email'
 import Twitter from 'react-icons/lib/ti/social-twitter'
 import Medium from 'react-icons/lib/fa/medium'
+import Instagram from 'react-icons/lib/fa/instagram'
 import ReactFitText from 'react-fittext'
 
 export default () => (
@@ -26,6 +27,9 @@ export default () => (
       </SocialMedia>
       <SocialMedia href="https://medium.com/@nathan.malishev" >
         <Medium style={styles.icon} />
+      </SocialMedia>
+      <SocialMedia href="https://www.instagram.com/nathanmalishev/" >
+        <Instagram style={styles.icon} />
       </SocialMedia>
     </ul>
   </div>
