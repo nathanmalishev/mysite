@@ -6,7 +6,7 @@ pipeline:
     image: node:6
     commands:
       - npm install
-      - npm build 
+      - npm run-script build 
   s3:
     image: plugins/s3
     bucket: nathanmalishev.com
