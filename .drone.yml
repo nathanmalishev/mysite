@@ -7,13 +7,13 @@ pipeline:
     commands:
       - npm install
       - npm run-script build 
-  s3:
-    image: plugins/s3
+  s3-sync:
+    image: plugins/s3-sync:1
     bucket: nathanmalishev.com
     region: ap-southeast-2
     acl: public-read
     access_key: ${AWS_ACCESS_KEY}
     secret_key: ${AWS_SECRET_KEY}
-    source: build/**/*
+    source: build/.
     target: /
-    strip_prefix: build/
+    delete: true
