@@ -3,4 +3,4 @@
 My awesome personal site.
 
 
-Easter egg is dog.nathanmalishev.com
+[![Build Status](https://drone.nathanmalishev.com/api/badges/nathanmalishev/mysite/status.svg)](https://drone.nathanmalishev.com/nathanmalishev/mysite)
