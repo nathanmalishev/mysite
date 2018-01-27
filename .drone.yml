@@ -12,8 +12,8 @@ pipeline:
     bucket: nathanmalishev.com
     region: ap-southeast-2
     acl: public-read
-    access_key: ${AWS_ACCESS_KEY}
-    secret_key: ${AWS_SECRET_KEY}
+    access_key: ${AWS_ACCESS_KEY_ID}
+    secret_key: ${AWS_SECRET_ACCESS_KEY}
     source: build/.
     target: /
     delete: true
