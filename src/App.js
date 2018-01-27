@@ -7,43 +7,6 @@ import Medium from 'react-icons/lib/fa/medium'
 import Instagram from 'react-icons/lib/fa/instagram'
 import ReactFitText from 'react-fittext'
 
-export default () => (
-  <div style={styles.container}>
-    <ReactFitText minFontSize={16} maxFontSize={126}>
-      <h2 style={styles.heading}>Nathan Malishev</h2>
-    </ReactFitText>
-    <ul style={styles.ul}>
-      <SocialMedia href="https://www.linkedin.com/in/nathan-malishev-1726a210b/" >
-        <LinkedIn style={styles.icon} />
-      </SocialMedia>
-      <SocialMedia href="https://github.com/nathanmalishev" >
-        <FaGithub style={styles.icon} />
-      </SocialMedia>
-      <SocialMedia href="mailto:nathan.malishev@gmail.com" >
-        <MdEmail style={styles.icon} />
-      </SocialMedia>
-      <SocialMedia href="https://twitter.com/NathanMalishev" >
-        <Twitter style={styles.icon} />
-      </SocialMedia>
-      <SocialMedia href="https://medium.com/@nathan.malishev" >
-        <Medium style={styles.icon} />
-      </SocialMedia>
-      <SocialMedia href="https://www.instagram.com/nathanmalishev/" >
-        <Instagram style={styles.icon} />
-      </SocialMedia>
-    </ul>
-  </div>
-)
-
-const SocialMedia = ({href, children}) => (
-  <li style={styles.li}>
-    <a href={href} style={styles.a}>
-      {children}
-    </a>
-  </li>
-)
-
-
 const styles = {
   li: {
     display: 'inline',
@@ -76,3 +39,41 @@ const styles = {
     color: 'black'
   }
 }
+
+export default () => (
+  <div style={styles.container}>
+    <ReactFitText minFontSize={16} maxFontSize={126}>
+      <h2 style={styles.heading}>Nathan Malishev</h2>
+    </ReactFitText>
+    <ul style={styles.ul}>
+      <SocialMedia href="https://www.linkedin.com/in/nathan-malishev-1726a210b/" >
+        <LinkedIn style={styles.icon} />
+      </SocialMedia>
+      <SocialMedia href="https://github.com/nathanmalishev" >
+        <FaGithub style={styles.icon} />
+      </SocialMedia>
+      <SocialMedia href="mailto:nathan.malishev@gmail.com" >
+        <MdEmail style={styles.icon} />
+      </SocialMedia>
+      <SocialMedia href="https://twitter.com/NathanMalishev" >
+        <Twitter style={styles.icon} />
+      </SocialMedia>
+      <SocialMedia href="https://medium.com/@nathan.malishev" >
+        <Medium style={styles.icon} />
+      </SocialMedia>
+      <SocialMedia href="https://www.instagram.com/nathanmalishev/" >
+        <Instagram style={styles.icon} />
+      </SocialMedia>
+    </ul>
+  </div>
+)
+
+const SocialMedia = ({href, children}) => (
+   li style={styles.li}>
+    <a href={href} style={styles.a}>
+      {children}
+    </a>
+  </li>
+)
+
+
