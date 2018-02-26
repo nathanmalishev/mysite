@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/nathanmalishev
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nathanmalishev.com
+  * I am nathanmalishev (https://keybase.io/nathanmalishev) on keybase.
+  * I have a public key ASCji8EUH8o6tx2L4aRO0Wb0vJnGfBfEA-1A0c9WqA-qBQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a38bc1141fca3ab71d8be1a44ed166f4bc99c67c17c403ed40d1cf56a80faa050a",
+      "host": "keybase.io",
+      "kid": "0120a38bc1141fca3ab71d8be1a44ed166f4bc99c67c17c403ed40d1cf56a80faa050a",
+      "uid": "1da00d4420d5a1cea4102a76e9601b19",
+      "username": "nathanmalishev"
+    },
+    "merkle_root": {
+      "ctime": 1519626451,
+      "hash": "ac570bc3c27a64eb704a07b8c7947c265d820ccf224e638176b4fb35104a7536ffdeef123beb5ef64907e54e4d72735f0e5360d96148f25472d608075f5fd922",
+      "hash_meta": "bd6f49d255dfe90400a63b34184ca228e5483e96b3f37d1ea91d6e14c7b743cc",
+      "seqno": 2152497
+    },
+    "service": {
+      "hostname": "nathanmalishev.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.44"
+  },
+  "ctime": 1519626464,
+  "expire_in": 504576000,
+  "prev": "bd3159d22a3bfb619bdd21aa3bc54f4613270c77dd2815bcc4623d2c9aed3b14",
+  "seqno": 22,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgo4vBFB/KOrcdi+GkTtFm9LyZxnwXxAPtQNHPVqgPqgUKp3BheWxvYWTFA1F7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYTM4YmMxMTQxZmNhM2FiNzFkOGJlMWE0NGVkMTY2ZjRiYzk5YzY3YzE3YzQwM2VkNDBkMWNmNTZhODBmYWEwNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYTM4YmMxMTQxZmNhM2FiNzFkOGJlMWE0NGVkMTY2ZjRiYzk5YzY3YzE3YzQwM2VkNDBkMWNmNTZhODBmYWEwNTBhIiwidWlkIjoiMWRhMDBkNDQyMGQ1YTFjZWE0MTAyYTc2ZTk2MDFiMTkiLCJ1c2VybmFtZSI6Im5hdGhhbm1hbGlzaGV2In0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTE5NjI2NDUxLCJoYXNoIjoiYWM1NzBiYzNjMjdhNjRlYjcwNGEwN2I4Yzc5NDdjMjY1ZDgyMGNjZjIyNGU2MzgxNzZiNGZiMzUxMDRhNzUzNmZmZGVlZjEyM2JlYjVlZjY0OTA3ZTU0ZTRkNzI3MzVmMGU1MzYwZDk2MTQ4ZjI1NDcyZDYwODA3NWY1ZmQ5MjIiLCJoYXNoX21ldGEiOiJiZDZmNDlkMjU1ZGZlOTA0MDBhNjNiMzQxODRjYTIyOGU1NDgzZTk2YjNmMzdkMWVhOTFkNmUxNGM3Yjc0M2NjIiwic2Vxbm8iOjIxNTI0OTd9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibmF0aGFubWFsaXNoZXYuY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuNDQifSwiY3RpbWUiOjE1MTk2MjY0NjQsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiYmQzMTU5ZDIyYTNiZmI2MTliZGQyMWFhM2JjNTRmNDYxMzI3MGM3N2RkMjgxNWJjYzQ2MjNkMmM5YWVkM2IxNCIsInNlcW5vIjoyMiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAfqeOPESP7TCEIuRkC2c8pgRlD550VWPYj6CIoTAlClTPW2NtIwMaTAQcZLaRjcuj5ATyhLr7i5mv+iKnG5LcFqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg7St5kfMM0kmrIz/DOTDwlmXuc7qg2alsYFYvoWKnxH6jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nathanmalishev
+
+==================================================================
