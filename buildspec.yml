@@ -4,7 +4,6 @@ phases:
     commands:
       - npm install
       - npm run-script build 
+  post_build:
+    commands:
       - aws s3 cp build s3://nathanmalishev.com/ --recursive
-    artifacts:
-      files:
-      - 'build/**/*'
