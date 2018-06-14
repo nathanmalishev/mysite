@@ -4,20 +4,32 @@ stages:
   - test
   - deploy
 
-build:
-  stage: build
-  script:
-    - npm install
-    - npm run-script build
 
 test1:
   stage: test
   script:
     - echo 'test1'
 
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run-script build
+
 deployToS3:
+  image: napp/docker-aws-cli
   stage: deploy
+  dependencies:
+    - build
+  when: manual
   script:
     - echo 'deploying'
     - ls
+    - aws s3 cp build s3://nathanmalishev.com/ --recursive
+  environment:
+    name: production
+    url: https://nathanmalishev.com
+  only:
+  - master
+
 
