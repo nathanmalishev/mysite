@@ -10,8 +10,7 @@ test1:
   dependencies:
     - build
   script:
-    - echo 'test1 with exploit'
-    - echo $AWS_ACCESS_KEY_ID
+    - echo 'test1'
 
 build:
   stage: build
@@ -25,7 +24,6 @@ deployToS3:
   dependencies:
     - test1
   when: manual
-  allow_failure: false
   script:
     - echo 'deploying'
     - ls
