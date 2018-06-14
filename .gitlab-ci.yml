@@ -11,6 +11,8 @@ test1:
     - build
   script:
     - echo 'test1'
+    - ls
+    - printenv
 
 build:
   stage: build
@@ -24,6 +26,7 @@ deployToS3:
   dependencies:
     - test1
   when: manual
+  allow_failure: false
   script:
     - echo 'deploying'
     - ls
