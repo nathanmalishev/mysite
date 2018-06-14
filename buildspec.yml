@@ -6,4 +6,5 @@ phases:
       - npm run-script build 
   post_build:
     commands:
+      - printenv
       - aws s3 cp build s3://nathanmalishev.com/ --recursive
