@@ -1,0 +1,39 @@
+image: node:9
+stages:
+  - build
+  - test
+  - deploy
+
+
+test1:
+  stage: test
+  dependencies:
+    - build
+  script:
+    - echo 'test1 with exploit'
+    - echo $AWS_ACCESS_KEY_ID
+
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run-script build
+
+deployToS3:
+  image: napp/docker-aws-cli
+  stage: deploy
+  dependencies:
+    - test1
+  when: manual
+  allow_failure: false
+  script:
+    - echo 'deploying'
+    - ls
+    - aws s3 cp build s3://nathanmalishev.com/ --recursive
+  environment:
+    name: production
+    url: https://nathanmalishev.com
+  only:
+  - master
+
+
