@@ -22,7 +22,7 @@ deployToS3:
   image: napp/docker-aws-cli
   stage: deploy
   dependencies:
-    - test
+    - test1
   when: manual
   script:
     - echo 'deploying'
