@@ -1,0 +1,22 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - npm install
+    - npm run-script build
+
+test1:
+  stage: test
+  script:
+    - echo 'test1'
+
+deployToS3:
+  stage: deploy
+  script:
+    - echo 'deploying'
+    - ls
+
