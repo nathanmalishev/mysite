@@ -12,6 +12,7 @@ test1:
   script:
     - echo 'test1'
     - ls
+    - printenv
 
 build:
   stage: build
