@@ -5,6 +5,7 @@ import MdEmail from 'react-icons/lib/md/email'
 import Twitter from 'react-icons/lib/ti/social-twitter'
 import Medium from 'react-icons/lib/fa/medium'
 import Instagram from 'react-icons/lib/fa/instagram'
+import Camera from 'react-icons/lib/fa/camera-retro'
 import ReactFitText from 'react-fittext'
 
 const styles = {
@@ -63,6 +64,9 @@ export default () => (
       </SocialMedia>
       <SocialMedia href="https://www.instagram.com/nathanmalishev/" >
         <Instagram style={styles.icon} />
+      </SocialMedia>
+      <SocialMedia href="http://photos.nathanmalishev.com" >
+        <Camera style={styles.icon} />
       </SocialMedia>
     </ul>
   </div>
